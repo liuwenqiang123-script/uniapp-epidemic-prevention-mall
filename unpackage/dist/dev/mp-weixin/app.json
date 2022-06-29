@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "123",
+    "navigationBarBackgroundColor": "#7FFF00",
+    "backgroundColor": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/logo.png",
+        "selectedIconPath": "static/tabs/logo.png"
+      },
+      {
+        "text": "信息",
+        "pagePath": "pages/message/message",
+        "iconPath": "static/tabs/logo.png",
+        "selectedIconPath": "static/tabs/logo.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

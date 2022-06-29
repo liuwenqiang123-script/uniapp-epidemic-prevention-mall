@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "defaultTitle": "123",
+    "pullRefresh": true,
+    "titleBarColor": "#7FFF00",
+    "backgroundColor": "black"
+  },
+  "tabBar": {
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "首页",
+        "icon": "static/tabs/logo.png",
+        "activeIcon": "static/tabs/logo.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "name": "信息",
+        "icon": "static/tabs/logo.png",
+        "activeIcon": "static/tabs/logo.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
